@@ -1,0 +1,31 @@
+.single_feature {
+    position: relative;
+    background: #dedee4;
+    padding: 36px 36px;
+    margin-bottom: 20px;
+  margin-top: 60px;
+  margin-left: 70px;
+  margin-right: 30px;
+    height: 200px;
+    width: 300px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    @media (max-width: 480px) {
+      .single_feature {
+        padding: 40px 20px; } }
+    .single_feature .icon span {
+      font-size: 30px; }
+    .single_feature h4 {
+      font-size: 20px;
+      font-weight: 500; }
+    .single_feature p {
+      margin-bottom: 0px; }
+    .single_feature:hover {
+      box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.1); 
+   }
+   .all{
+       display: inline-block;
+       
+   }
