@@ -6,7 +6,7 @@
   margin-top: 60px;
   margin-left: 70px;
   margin-right: 30px;
-    height: 200px;
+    height: 250px;
     width: 300px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -24,6 +24,8 @@
       margin-bottom: 0px; }
     .single_feature:hover {
       box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.1); 
+      transform: scale(1.1);
+      transition: 0.5s;
    }
    .all{
        display: inline-block;
