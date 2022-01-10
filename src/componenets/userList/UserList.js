@@ -18,14 +18,17 @@ const UserList = () => {
     
        <div className="single_feature">
          <div className="desc">
-           <h4 className="mt-3 mb-2" style={{color:"#ebc51d"}}>{user.name}</h4>
+           <h4 className="mt-3 mb-2" style={{color:"#ebc51d"}}><i class="fas fa-user"></i>{user.name}</h4>
            <p>
             <strong style={{color:"#240496"}}>{user.username}</strong>
             <br />
-            {user.email}
+            <i class="far fa-envelope"></i> {user.email}
             <br />
-            {user.phone}
-            {user.website}
+            <i class="fas fa-phone"></i>{user.phone}
+            <br/>
+            <i class="fas fa-building"></i> {user.website}
+            <br/>
+           
            </p>
          </div>
        </div>
